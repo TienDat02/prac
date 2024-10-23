@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 public class Account {
-    private String id;
+    private String requestId;
     private String accountNumber;
     private String userId;
     private Balance balance;
