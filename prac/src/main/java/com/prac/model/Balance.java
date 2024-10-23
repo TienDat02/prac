@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
-@NoArgsConstructor
 @AllArgsConstructor
-@Data
+@NoArgsConstructor
 @Builder
+@Data
 public class Balance {
     private String id;
     private String accountNumber;
